@@ -1,0 +1,22 @@
+$primary-color: #092754;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+$background-header: linear-gradient(0deg, rgba(216,240,255,1) 0%, rgba(173,224,255,1) 100%);
+$text-color: #2c3e50;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3 {
+    color: $primary-color;
+}
+
+a {
+    cursor: pointer;
+}
+
+.container_header_hero {
+    background: $background-header;
+}
