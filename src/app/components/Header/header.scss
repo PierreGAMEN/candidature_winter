@@ -1,0 +1,129 @@
+// styles.scss
+@import '../../globals.scss';
+
+.container_header {
+
+    header {
+        display: flex;
+        height: 10vh;
+        align-items: center;
+        width: 100%;
+
+        nav {
+            width: 50%;
+            display: flex;
+            gap: 2rem;
+            
+
+            .header_link {
+                padding: 1rem;
+                border: 3px solid rgba(255, 255, 255, 0);
+                cursor: pointer;
+
+                &:hover {
+                    background-color: white;
+                    border: 3px solid rgb(209, 230, 241);
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .header_image {
+            flex-grow: 1;
+        }
+    }
+}
+
+.burger_menu_container {
+    position: relative;
+    display: inline-block;
+    width: 10vw;
+    
+    .burger_menu_icon {
+      width: 25px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 24px;
+      .line {
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        border-radius: 5px;
+        border: 1px solid black;
+      }
+      .open{
+        background-color: white;
+        border: 1px solid white;
+      }
+    }
+    .menu {
+      position: absolute;
+      top: 40px;
+      right: 20px;
+      width: 80vw;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      animation: openMenuAnimation 0.5s ease forwards;
+      padding: 2rem;
+
+      justify-content: center;
+      
+      .menu_item {
+        text-decoration: none;
+        border-radius: 8px;
+        height: 100%;
+        color: $primary-color;
+        display: inline-block;
+        
+        &:hover {
+          color: rgb(187, 199, 202)
+
+        }
+      }
+    }
+  }
+  
+  @keyframes openMenuAnimation {
+    0% {
+      
+      opacity: 0;
+      transform: scaleY(0); 
+    }
+    100% {
+      opacity: 1;
+      transform: scaleY(1); 
+    }
+  }
+  
+
+
+@media (max-width: 1500px) {
+    header {
+
+
+        nav {
+         flex-grow: 1;
+
+
+        }
+        .header_image {
+            flex-grow: 0;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+
+  header {
+
+    justify-content: space-around;
+    
+
+  }
+
+}
