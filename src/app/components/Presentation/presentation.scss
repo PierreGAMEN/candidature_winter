@@ -1,0 +1,34 @@
+.container_presentation {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    padding-top: 3rem;
+
+    h2 {
+        padding: 2rem;
+    }
+    span {
+        color: #106bcf;
+    }
+
+    .orange {
+        color: orange;
+    }
+
+    .blue {
+        color: #106bcf
+    }
+
+    img {
+        cursor: pointer;
+    }
+}
+
+@media (max-width:960px) {
+    .container_presentation {
+        flex-direction: column;
+        text-align: center;
+    }
+}
