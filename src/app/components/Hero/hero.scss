@@ -1,0 +1,81 @@
+@import '../../globals.scss';
+
+.container_hero {
+    display: flex;
+
+    width: 75vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+    .hero {
+        width: 80%;
+
+        h1 {
+            font-size: 2.5rem;
+            width: 70%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        a{
+            text-decoration: underline;
+        }
+
+        &_seemore{
+            display: flex;
+            align-items: center;
+            gap: 1rem
+     
+        }
+
+    }
+    
+
+}
+
+@media (max-width: 960px) {
+    h1{
+        width: 100%;
+      
+    }
+}
+
+
+@media (max-width: 1500px) {
+    .container_hero{
+       flex-direction: column;
+       text-align: center;
+       width: 100%;
+
+       .hero {
+        width: 100%;
+        
+
+       h1 {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+        font-size: 2rem;
+        
+       }
+
+        &_seemore{
+          display: flex;
+          justify-content: center;
+          padding-bottom: 2rem;
+        }
+
+        &_image {
+            width: 100vw;
+            max-height: 30vh;
+        }
+
+       }
+
+    }
+    
+}
+
+
+
+
