@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import Header from "./components/Header/header.jsx";
 import Hero from "./components/Hero/hero";
+import Details from "./components/Details/Details"
 import Presentation from "./components/Presentation/presentation";
 
 export default function Home() {
@@ -12,10 +13,8 @@ export default function Home() {
       <Hero />
     </div>
     <Presentation />
+    <Details />
  
-    <main>
-
-    </main>
     </>
   );
 }
