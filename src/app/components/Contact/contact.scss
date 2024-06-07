@@ -1,0 +1,57 @@
+
+
+.container_contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+
+    .left, .right {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+        text-align: center;
+        gap: 2rem;
+
+    }
+
+    .left {
+        background-color: #ffc366;
+    }
+    .right {
+        background-color: #c9c3ff;
+    }
+
+    button {
+        padding: 1rem;
+        border-radius: 5px;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    span {
+        color: rgb(60, 106, 167);
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 350px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    .container_contact {
+        flex-direction: column;
+    }
+    
+}
