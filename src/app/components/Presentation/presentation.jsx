@@ -19,7 +19,7 @@ const Presentation = () => {
     };
 
     return (
-        <section className="container_presentation">
+        <section id="presentation" className="container_presentation">
             <img 
                 onClick={() => handleColor("blue")}
                 src="https://assets-global.website-files.com/64e0b797e5ca48456ffda312/64e53e32d075b07cb03662b4_Groupe%201073.svg" 

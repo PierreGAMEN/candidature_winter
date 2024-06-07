@@ -44,9 +44,9 @@ const Header = () => {
         />
         {!isMobile && (
             <nav>
-            <a className="header_link">Une pierre brut</a>
-            <a className="header_link">Sobriété et énergie, un leitmotiv</a> 
-            <a className="header_link">Faites un test</a>  
+            <a href="#presentation" className="header_link">Une pierre brut</a>
+            <a href="#step" className="header_link">Pas à pas</a> 
+            <a href="#contact" className="header_link">Faites un test</a>  
             </nav>
         )}
         {isMobile && (
@@ -58,9 +58,9 @@ const Header = () => {
             </div>
             {isOpen && (
                 <nav className="menu">
-                <a href="#" className="menu_item">Une pierre brut</a>
-                <a href="#" className="menu_item">Energie et leitmotiv</a>
-                <a href="#" className="menu_item">Faites un test</a>
+                    <a onClick={toggleMenu} href="#presentation" className="header_link">Une pierre brut</a>
+                    <a onClick={toggleMenu} href="#step" className="header_link">Pas à pas</a> 
+                    <a onClick={toggleMenu} href="#contact" className="header_link">Faites un test</a>  
                 </nav>
             )}
             </div>

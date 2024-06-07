@@ -19,6 +19,8 @@
                 padding: 1rem;
                 border: 3px solid rgba(255, 255, 255, 0);
                 cursor: pointer;
+                text-decoration: none;
+                color: $primary-color;
 
                 &:hover {
                     background-color: white;
