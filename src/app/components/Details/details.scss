@@ -1,0 +1,21 @@
+.container_details {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1000px;
+}
+
+@media (max-width:1350px) {
+    .container_details {
+        width: 80%
+    }
+}
+
+@media (max-width: 960px) {
+    .container_details {
+        width: 90%;
+        margin-top: 5rem;
+    }
+}
