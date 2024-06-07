@@ -1,0 +1,32 @@
+
+@import '../../globals.scss';
+
+.footer {
+    display: flex;
+    background: $background-header;
+    padding: 5vw;
+    justify-content: space-between;
+
+    p{
+        font-size: 2rem;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem
+    }
+}
+
+@media (max-width: 1000px) {
+     .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+
+        
+     }
+    
+}
+
+    
