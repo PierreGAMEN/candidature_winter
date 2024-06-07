@@ -4,6 +4,10 @@ import Header from "./components/Header/header.jsx";
 import Hero from "./components/Hero/hero";
 import Details from "./components/Details/Details"
 import Presentation from "./components/Presentation/presentation";
+import Promotion from "./components/Promotion/promotion";
+import Step from "./components/Steps/steps";
+import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
 
 export default function Home() {
   return (
@@ -14,6 +18,10 @@ export default function Home() {
     </div>
     <Presentation />
     <Details />
+    <Promotion />
+    <Step />
+    <Contact />
+    <Footer />
  
     </>
   );
