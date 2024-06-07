@@ -16,7 +16,7 @@ const Contact = () => {
             <img 
             src="https://assets-global.website-files.com/64e0b797e5ca48456ffda312/64e53e339f50c8d9b6f65d10_Groupe%201081.svg" 
             alt="Femme qui étudie des courbes et homme qui réfléchit sur un ordinateur" />
-            <button>On passe a la candidature suivante</button>
+            <button>On passe à la candidature suivante</button>
 
         </div>
 
