@@ -1,0 +1,57 @@
+.container_promotion {
+
+    background-color: #092754;
+    margin-top: 2rem;
+    padding: 5vw;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+
+    &_text {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+
+    }
+
+    h2 {
+        color: white;
+        font-size: 2rem;
+    }
+
+    p {
+        color: white;
+    }
+    img {
+
+        max-width: 100%;
+
+    }
+    
+    button {
+        padding: 0.5rem;
+        background-color: white;
+        width: 20vw;
+        min-width: 200px;
+        border-radius: 10px;
+
+        a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            color:#092754;
+            font-weight: bold;
+        }
+    }
+}
+
+@media (max-width:1150px) {
+    .container_promotion {
+        flex-direction: column;
+
+        &_text {
+            align-items: center;
+        }
+    }
+    }
+    
