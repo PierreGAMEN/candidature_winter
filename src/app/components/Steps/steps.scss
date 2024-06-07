@@ -1,0 +1,114 @@
+.container_step_title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 5vw;
+
+}
+
+.container_footprint {
+    position: relative;
+    height: 20vh;
+
+
+    .footprint {
+        width: 100px;
+        transform: rotate(180deg);
+        position: absolute;
+        opacity: 0;
+        
+    
+    }
+    
+    .fp1 {
+        top: 10vh;
+        left: 2vw;
+        animation: footprintAnimation 9s ease-out infinite;
+    
+    }
+    
+    .fp2 {
+        transform: rotateY(180deg);
+        top: 2vh;
+        left: 10vw;
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 1s;
+    }
+
+    .fp3 {
+        top: 10vh;
+        left: 25vw;
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 2s;
+        
+    }
+    .fp4 {
+        transform: rotateY(180deg);
+        top: 2vh;
+        left: 40vw;
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 3s;
+    }
+
+    .fp5 {
+        top: 8vh;
+        left: 55vw;
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 4s;
+    }
+
+    .fp6 {
+        
+        top: 2vh;
+        left: 70vw;
+        transform: rotateY(180deg);
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 5s;
+    }
+
+    .fp7 {
+        top: 8vh;
+        left: 85vw;
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 6s;
+    }
+
+    .fp8 {
+        transform: rotateY(180deg);
+        top: 2vh;
+        left: 85vw;
+        animation: footprintAnimation 9s ease-out infinite;
+        animation-delay: 6s;
+    }
+}
+
+@keyframes footprintAnimation {
+    0%{
+        opacity: 0;
+    } 10% {
+        opacity: 1;
+    } 30% {
+        opacity: 0;
+    } 100% {
+        opacity: 0;
+    }
+    
+}
+
+
+@media (max-width: 1501px) {
+
+     .fp7, .fp8 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 900px) {
+
+    .footprint{
+        width: 50px;
+    }
+}
+
