@@ -2,7 +2,7 @@ import styles from "./footer.scss"
 
 const Footer = () => {
     return(
-    <div className="footer">
+    <footer className="footer">
         <img 
         src="https://assets-global.website-files.com/64e0b797e5ca48456ffda312/64e53e34eab4da497a5a78e1_Groupe%201083.svg" 
         alt="Flamme et décoration" />
@@ -14,7 +14,7 @@ const Footer = () => {
         <img 
         src="https://assets-global.website-files.com/64e0b797e5ca48456ffda312/64e53e34eab4da497a5a78e1_Groupe%201083.svg" 
         alt="Flamme et décoration" />
-    </div>)
+    </footer>)
 }
 
 export default Footer;

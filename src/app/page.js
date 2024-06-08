@@ -16,11 +16,13 @@ export default function Home() {
       <Header />
       <Hero />
     </div>
+    <main> 
     <Presentation />
     <Details />
     <Promotion />
     <Step />
     <Contact />
+    </main>
     <Footer />
  
     </>

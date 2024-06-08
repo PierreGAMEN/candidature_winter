@@ -12,7 +12,7 @@ const SectionDetail = ({ number, title, text, image, right, alt }) => {
     }, [right]);
 
     return (
-        <section className="container_sectionDetail">
+        <div className="container_sectionDetail">
             {!imageOnRight && <img className="image_sectionDetail" src={image} alt={alt} />}
             <div>
             <div className={`container_sectionDetail_title ${!imageOnRight ? "left" : ""}`}>
@@ -27,7 +27,7 @@ const SectionDetail = ({ number, title, text, image, right, alt }) => {
             <p>{text}</p>
             </div>
             {imageOnRight && <img className="image_sectionDetail" src={image} alt={alt} />}
-        </section>
+        </div>
     );
 };
 

@@ -28,7 +28,7 @@ const Details = () => {
       }, []);
 
     return(
-    <main className="container_details">
+    <section id="details" className="container_details">
         <SectionDetail 
             title="Une pierre brut, ça vous tente"
             number="https://assets-global.website-files.com/64e0b797e5ca48456ffda312/64e53e29d075b07cb0365a13_Groupe%20803.svg"
@@ -52,7 +52,7 @@ const Details = () => {
             image="https://assets-global.website-files.com/64e0b797e5ca48456ffda312/64e53e33d619ceba41c82f12_Groupe%201079.svg"
             alt="Homme avec plante dans la main"
         />
-    </main>)
+    </section>)
 }
 
 export default Details

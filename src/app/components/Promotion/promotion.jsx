@@ -4,7 +4,7 @@ import styles from "./promotion.scss"
 const Promotion = () => {
 
     return (
-        <section className="container_promotion">
+        <section id="promotion" className="container_promotion">
             <div className="container_promotion_text">
                 <h2>C'est l'instant promo</h2>
                 <p>Connectez-vous sur mon site et découvrez en un peu plus sur mon parcours, ma personnalité, mes projets...</p>
