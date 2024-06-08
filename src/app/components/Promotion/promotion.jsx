@@ -11,7 +11,7 @@ const Promotion = () => {
                 <button><a href="https://pierre-gamen.netlify.app/">Découvrir l'application</a></button>
             </div>
             <div>
-            <img src="https://pierre-gamen.netlify.app/photoPg.png" alt="" />
+            <img src="https://pierre-gamen.netlify.app/photoPg.png" alt="image profil Pierre GAMEN" />
             </div>
  
         </section>
