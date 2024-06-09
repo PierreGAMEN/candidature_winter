@@ -5,14 +5,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Candidature-PierreGAMEN",
-  description: "Créer par Pierre GAMEN",
+  description: "Site internet créé pour répondre à une offre frontend de l'entreprise WINTER",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      {/* <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> */}
+    <html lang="fr">
+      <head>
+        <link rel="icon" href="/favicon.png" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
